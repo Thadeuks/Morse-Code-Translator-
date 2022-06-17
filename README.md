@@ -1,5 +1,5 @@
 # Morse Code Translator
-A simple CLI written in *Python* that allows you to convert an alphanumeric text into morse code and to translate morse to the normal alphabet. 
+A simple CLI written in **Python** that allows you to convert an alphanumeric text into morse code and to translate morse to the normal alphabet. 
 
 ## Usage 
 For converting alphanumeric into morse:
