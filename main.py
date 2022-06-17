@@ -1,5 +1,5 @@
 """
-This program allows you to convert normal text to morse code and to translate
+This program allows you to convert an alphanumeric text into morse code and to translate
 morse to the normal alphabet. 
 """
 import argparse #https://docs.python.org/3/library/argparse.html
@@ -37,7 +37,7 @@ def trans_to_morse(sentence: str):
 	#convert into morse:
 	for ch in sentence:
 		try:
-			morse += f"{characters[ch.upper()]} "
+			morse += f" {characters[ch.upper()]} "
 		except:
 			morse += " "
 	return morse 
@@ -63,9 +63,9 @@ def trans_to_alpha(sentence: str):
 	#get the spaces in the text
 	index = 0
 	for ch in sentence:
-		if ch == " ":
+		if ch == " " and len(sentence) > index+1:
 			if sentence[index+1] + sentence[index+2] == "  ":
-				spaces.append(int(index+1))
+				spaces.append(int(index+1)) 
 		index += 1
 	#change the spaces to "*"
 	for i in spaces:
