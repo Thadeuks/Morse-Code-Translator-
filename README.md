@@ -17,4 +17,4 @@ U need more help?
 --help
 ```
 
-!{example}(https://media.discordapp.net/attachments/876903183237148702/987393613333934141/unknown.png?width=731&height=386)
+![example](https://media.discordapp.net/attachments/876903183237148702/987393613333934141/unknown.png?width=731&height=386)
